@@ -72,6 +72,7 @@ export default function NewIncident() {
             name="value"
             value={state.value}
             onChange={handleChange}
+            style={{appearance: 'textfield'}}
           />
 
           <button type="submit" className="button">
